@@ -1,0 +1,34 @@
+<!-- <h1>Two Data</h1>
+<br>
+Enter your first name<input type="text" [(ngModel)]="fname"/>
+<br>
+<br>
+<b>Welcom {{fname}}</b> -->
+
+<!-- <h1>Structural and Attribute Directives Example</h1>
+<br>
+<button (click)="changeflag()">Show or Hide Div</button>
+<div *ngIf="flag">
+  <br>
+  My Div
+</div> -->
+
+<h1>Structural and Attribute Directives Example</h1>
+<br>
+<button (click)="changeflag()">Show or Hide Div</button>
+<div *ngIf="flag" [ngstyle]="mystyle">
+  <br>
+  <ul>
+    <li *ngFor="let vec of vechicles"(click)="setSelectedItem(vec)">{{vec}}</li>
+  </ul>
+  <br>
+  <b>You have selected :{{selectedvechicle}}</b>
+  <br>
+  <br>
+  <div [ngSwitch]="selectedVehicle">
+    <font color="green" *ngSwitchCase="'Two Wheeler'">Bike</font>
+    <font color="green" *ngSwitchCase="'Three Wheeler'">Auto</font>
+    <font color="green" *ngSwitchCase="'Four Wheeler'">Car</font>
+    <font color="green" *ngSwitchDefault>Invalid</font>
+    </div>
+</div>

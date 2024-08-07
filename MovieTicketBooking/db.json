@@ -1,0 +1,24 @@
+{
+  "bookings": [
+    {
+      "id": "293",
+      "nameField": "dharshini",
+      "dateField": "2024-08-10",
+      "showtimeField": "5.30 PM",
+      "movieField": "avengers",
+      "ticketsField": 2,
+      "seattypeField": "Gold",
+      "paymentMethodField": ""
+    },
+    {
+      "id": "190",
+      "nameField": "Manimozhi",
+      "dateField": "2024-08-08",
+      "showtimeField": "5.30 PM",
+      "movieField": "avengers",
+      "ticketsField": 5,
+      "seattypeField": "Gold",
+      "paymentMethodField": ""
+    }
+  ]
+}
